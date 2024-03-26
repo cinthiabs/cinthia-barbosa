@@ -97,9 +97,15 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options":{
+            "baseHref":"/cinthia-barbosa/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "447ca0c7-18b3-4b05-82a6-001885710342"
   }
 }
