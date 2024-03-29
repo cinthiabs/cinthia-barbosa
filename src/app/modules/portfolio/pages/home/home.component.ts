@@ -3,11 +3,12 @@ import { HeaderComponent } from '../../components/header/header.component';
 import { KnowledgeComponent } from '../../components/knowledge/knowledge.component';
 import { ExperiencesComponent } from '../../components/experiences/experiences.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
+import { ArticlesComponent } from '../../components/articles/articles.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent , KnowledgeComponent, ExperiencesComponent, ProjectsComponent],
+  imports: [HeaderComponent , KnowledgeComponent, ExperiencesComponent, ProjectsComponent, ArticlesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

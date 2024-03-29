@@ -56,6 +56,34 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src:'assets/img/projects/vfull.png',
+      alt:'Sistema Cadastro de Funcionários',
+      title:'Sistema Cadastro de Funcionários',
+      width:'100px',
+      height:'51px',
+      description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
+      links:[
+        {
+          name:'Conheça o projeto',
+          href:'https://github.com/cinthiabs/project_employee',
+        },
+      ],
+    },
+    {
+      src:'assets/img/projects/vfull.png',
+      alt:'Sistema Cadastro de Funcionários',
+      title:'Sistema Cadastro de Funcionários',
+      width:'100px',
+      height:'51px',
+      description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
+      links:[
+        {
+          name:'Conheça o projeto',
+          href:'https://github.com/cinthiabs/project_employee',
+        },
+      ],
+    },
   ]);
   public openDialog(data: IProjects){
     this.#dialog.open(DialogProjectsComponent, {
