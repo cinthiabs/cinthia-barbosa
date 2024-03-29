@@ -21,6 +21,7 @@ export class ProjectsComponent {
       width:'60px',
       height:'51px',
       description:'Este projeto consiste em uma API para consulta, inclusão de pedidos e alteração do status do pedido. Implementado autenticação JWT, arquitetura DDD (Domain-Driven Design) e Swagger para documentação.',
+      summary:'API de consulta e inclusão de pedidos, feito em .NET Core, implementado autenticação JWT e arquitetura DDD.',
       links:[
         {
           name:'Conheça o projeto',
@@ -30,11 +31,12 @@ export class ProjectsComponent {
     },
     {
       src:'assets/img/projects/vfull.png',
-      alt:'Serviço Importador de XML da Nota Fiscal',
-      title:'Serviço Importador de XML da Nota Fiscal',
+      alt:'Serviço Importador de XML Nota Fiscal',
+      title:'Serviço Importador de XML Nota Fiscal',
       width:'60px',
       height:'51px',
       description:'Este projeto consiste em um serviço que realiza a leitura de arquivos XML de pedidos de nota fiscal para a base de dados a partir de um diretório. Implementado arquitetura DDD (Domain-Driven Design).',
+      summary:'Serviço de leitura de XML nota fical, feito em .NET Core.',
       links:[
         {
           name:'Conheça o projeto',
@@ -49,6 +51,7 @@ export class ProjectsComponent {
       width:'100px',
       height:'51px',
       description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
+      summary:'Este projeto é uma aplicação desenvolvida em Angular e API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
       links:[
         {
           name:'Conheça o projeto',
@@ -58,29 +61,16 @@ export class ProjectsComponent {
     },
     {
       src:'assets/img/projects/vfull.png',
-      alt:'Sistema Cadastro de Funcionários',
-      title:'Sistema Cadastro de Funcionários',
+      alt:'Em construção...',
+      title:'Em construção...',
       width:'100px',
       height:'51px',
-      description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
+      description:'Projeto em desenvolvimento.',
+      summary:'Projeto em desenvolvimento.',
       links:[
         {
           name:'Conheça o projeto',
-          href:'https://github.com/cinthiabs/project_employee',
-        },
-      ],
-    },
-    {
-      src:'assets/img/projects/vfull.png',
-      alt:'Sistema Cadastro de Funcionários',
-      title:'Sistema Cadastro de Funcionários',
-      width:'100px',
-      height:'51px',
-      description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
-      links:[
-        {
-          name:'Conheça o projeto',
-          href:'https://github.com/cinthiabs/project_employee',
+          href:'',
         },
       ],
     },

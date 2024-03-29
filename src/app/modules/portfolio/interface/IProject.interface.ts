@@ -5,6 +5,7 @@ export interface IProjects{
   width:string,
   height:string,
   description:string,
+  summary:string,
   links:[
     {
       name:string,

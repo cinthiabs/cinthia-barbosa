@@ -5,7 +5,8 @@
     @for(item of arrayProject(); track item){
       <li>
         <button (click)="openDialog(item)">
-          <img [src]="item.src" [alt]="item.alt" [attr.width]="item.width" [attr.height]="item.height" loading="lazy">
+          <h1 class="title">{{ item.title }}</h1>
+          <p class="description">{{ item.summary }}</p>
         </button>
       </li>
     }
