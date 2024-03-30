@@ -21,7 +21,7 @@ export class ProjectsComponent {
       width:'60px',
       height:'51px',
       description:'Este projeto consiste em uma API para consulta, inclusão de pedidos e alteração do status do pedido. Implementado autenticação JWT, arquitetura DDD (Domain-Driven Design) e Swagger para documentação.',
-      summary:'API de consulta e inclusão de pedidos, feito em .NET Core, implementado autenticação JWT e arquitetura DDD.',
+      summary:'API de consulta e inclusão de pedidos, feito em .NET Core e autenticação JWT',
       links:[
         {
           name:'Conheça o projeto',
@@ -51,7 +51,7 @@ export class ProjectsComponent {
       width:'100px',
       height:'51px',
       description:'Este projeto é uma aplicação desenvolvida em Angular (Single Page Application) permitindo o cadastro, atualização, visualização e exclusão de registros de funcionários através de uma API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
-      summary:'Este projeto é uma aplicação desenvolvida em Angular e API em .NET core. Foi implementado Cypress para testes end-to-end (E2E).',
+      summary:'Aplicação desenvolvida em Angular e API em .NET core, implementado Cypress para testes end-to-end.',
       links:[
         {
           name:'Conheça o projeto',

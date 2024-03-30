@@ -9,10 +9,13 @@
 
   .description{
     color:var(--grey-010);
+    width: auto;
+    height: auto;
   }
   .title{
     font-size: 18px;
-    font-family: sans-serif;;
+    font-family: sans-serif;
+
   }
   h2{
     text-align: center;
